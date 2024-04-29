@@ -1,0 +1,18 @@
+.PetContainer { border: 1px solid gray; width: 350px; margin: 10px auto;
+    box-shadow: 5px 5px 5px #DDD; padding: 30px;
+  }
+  
+  .PetContainer h1 { margin: 0  0 20px 0; }
+  .PetContainer input[type=text] { padding: 6px; width: 220px; }
+  .PetContainer input[type=number] { margin-top: 5px; padding: 6px; width: 220px; }
+  .PetContainer button { margin-left: 5px; padding: 3px 10px; }
+  .PetContainer table { border-collapse: collapse; margin-top: 20px; width: 100%; }
+  .PetContainer td { border: 1px solid gray; padding: 6px; }
+  .PetContainer thead { background-color: #eee; }
+  
+  .PetContainer td:nth-child(1) { text-align: center; width: 30px; }
+  .PetContainer td:nth-child(2) { width: 50% }
+  .PetContainer td:nth-child(3) { text-align: center; width: 40px; }
+  .PetContainer span { float: right; font-weight: bold; cursor: pointer; }
+  .PetContainer tr.yellow { background-color: #fffd7f; text-decoration: line-through; }
+  .PetContainer tr.green { background-color: #7fff94; text-decoration: line-through; }
