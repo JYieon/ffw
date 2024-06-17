@@ -1,0 +1,58 @@
+{
+  "buildings": [
+    {
+      "id": 1,
+      "buildingName": "정보과학관"
+    },
+    {
+      "id": 2,
+      "buildingName": "미가엘관"
+    },
+    {
+      "id": 3,
+      "buildingName": "새천년관"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "roomName": "F6202",
+      "capacity": 40,
+      "buildingId": 1,
+      "roomType": "실습실",
+      "available": true
+    },
+    {
+      "id": 2,
+      "roomName": "F6405",
+      "capacity": 30,
+      "buildingId": 1,
+      "roomType": "실습실",
+      "available": true
+    },
+    {
+      "id": 3,
+      "roomName": "M201",
+      "capacity": 14,
+      "buildingId": 2,
+      "roomType": "강의실",
+      "available": false
+    },
+    {
+      "id": 4,
+      "roomName": "M202",
+      "capacity": 14,
+      "buildingId": 2,
+      "roomType": "강의실",
+      "available": true
+    },
+    {
+      "id": 6,
+      "roomName": "M304",
+      "capacity": 40,
+      "buildingId": 2,
+      "roomType": "실습실",
+      "available": false
+    }
+  ]
+}
