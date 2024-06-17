@@ -1,0 +1,17 @@
+.TodoContainer { border: 1px solid gray; width: 350px; margin: 10px auto;
+    box-shadow: 5px 5px 5px #DDD; padding: 30px;
+  }
+  
+  .TodoContainer h1 { margin: 0  0 20px 0; }
+  .TodoContainer input[type=text] { padding: 6px; width: 220px; }
+  .TodoContainer button { margin-left: 5px; padding: 3px 10px; }
+  .TodoContainer table { border-collapse: collapse; margin-top: 20px; width: 100%; }
+  .TodoContainer td { border: 1px solid gray; padding: 6px; }
+  .TodoContainer thead { background-color: #eee; }
+  
+  .TodoContainer td:nth-child(1) { text-align: center; width: 30px; }
+  .TodoContainer input[type=checkbox] { margin-right: 10px; accent-color: gray; }
+  .TodoContainer span { float: right; font-weight: bold; cursor: pointer; }
+  .TodoContainer tr.done { color: #bbb; text-decoration: line-through; }
+  
+  

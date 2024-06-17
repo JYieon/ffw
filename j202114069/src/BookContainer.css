@@ -1,0 +1,23 @@
+.BookContainer { border: 1px solid gray; width: 500px; margin: 10px auto;
+    box-shadow: 5px 5px 5px #DDD; padding: 30px;
+  }
+  
+  .BookContainer h1 { margin: 0  0 20px 0; }
+  .BookContainer input[type=text] { margin: 10px auto; padding: 6px; width: 190px; }
+  .BookContainer input[type=number] {  margin: 5px; padding: 6px; width: 100px; }
+  .BookContainer button { margin-left: 3px; padding: 3px 10px; }
+  .BookContainer table { border-collapse: collapse; margin-top: 20px; width: 100%; }
+  .BookContainer td { border: 1px solid gray; padding: 6px; }
+  .BookContainer thead { background-color: #eee; }
+  
+  .BookContainer td:nth-child(1) { text-align: center; width: 30px; }
+  .BookContainer td:nth-child(2) {  width: 50%; }
+  .BookContainer td:nth-child(4) { text-align: center; width: 50px; }
+  .BookContainer tr.yellow { background-color: rgb(255, 255, 218);}
+  .BookContainer tr.green { background-color: rgb(223, 255, 223);}
+
+  .BookContainer input[type=checkbox] { margin-right: 10px; accent-color: gray; }
+  .BookContainer span { float: right; font-weight: bold; cursor: pointer; }
+  .BookContainer tr.done { color: #bbb; text-decoration: line-through; }
+  
+  
